@@ -2,7 +2,7 @@ from WordleSolver import WordleSolver
 import json
 
 
-f = open('actualWords.json')
+f = open('./data/actualWords.json')
 choices = json.load(f)
 f.close()
 Solver = WordleSolver(choices)
