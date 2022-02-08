@@ -37,10 +37,11 @@ while True:
         wordle = input("Guess : {} ".format(guessWord))
     if wordle == '99999':
         continue
+    print ('\033[1A''\033[F') # To clean print
     if wordle == '11111':
+        printGuess(guessWord, colors, currentRemaining)
         print('Congratulations!')
         break
-    print ('\033[1A''\033[F') # To clean print
     colors = stringToColor(wordle)
     Solver.calculateRemain(wordle, guess)
     
