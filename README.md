@@ -36,8 +36,10 @@ Guess : SHAPE 🟩️🟩️🟩️⬜️⬜️ There are 3 remains
 Guess : SHAWM 🟩️🟩️🟩️⬜️⬜️ There are 2 remains
 Guess : SHARD 11102
 ```
-> ![](https://i.imgur.com/ucM1MRu.jpg)
-> ![](https://i.imgur.com/BPrSCiD.jpg)
+> ![](https://i.imgur.com/oGuokkD.png)
+> ![](https://i.imgur.com/AXPpA0Y.png)
+
+
 
 
 Enjoy your WORDLE!!
