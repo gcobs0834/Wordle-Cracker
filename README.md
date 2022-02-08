@@ -13,6 +13,9 @@ Every time our program will pop out a guess and you can enter wordle's hint by c
 
 * For example:
 ```
+====================
+Game: 1
+====================
 If the guess pop Not in word list enter 99999
 There are 6602 remains
 Guess : DONNA ⬜️⬜️⬜️⬜️🟨 There are 1298 remains
@@ -20,6 +23,18 @@ Guess : CLAMS ⬜️⬜️🟩️🟩️⬜️ There are 4 remains
 Guess : TRAMP ⬜️🟩️🟩️🟩️⬜️ There are 1 remains
 Guess : FRAME ⬜️🟩️🟩️🟩️⬜️ There are 1 remains
 Congratulations!
+
+====================
+Game: 2
+====================
+If the guess pop Not in word list enter 99999
+There are 6602 remains
+Guess : HAIKU 🟨🟨⬜️⬜️⬜️ There are 125 remains
+Guess : GHATS ⬜️🟩️🟩️⬜️🟨 There are 15 remains
+Guess : SHALL 🟩️🟩️🟩️⬜️⬜️ There are 9 remains
+Guess : SHAPE 🟩️🟩️🟩️⬜️⬜️ There are 3 remains
+Guess : SHAWM 🟩️🟩️🟩️⬜️⬜️ There are 2 remains
+Guess : SHARD 11102
 ```
 > ![](https://i.imgur.com/ucM1MRu.jpg)
 > ![](https://i.imgur.com/gVAle8G.jpg)
