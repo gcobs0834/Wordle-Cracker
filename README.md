@@ -17,6 +17,8 @@ F A S T S
 G Y B B B # Green Yellow Black Black Black
 1 2 0 0 0 # You type in input
 ```
+![](https://i.imgur.com/ucM1MRu.jpg)
+![](https://i.imgur.com/gVAle8G.jpg)
 Once you type in 12000
 Our program will pop out all invalid guess in WordleSolver.choices by the game's rule
 
