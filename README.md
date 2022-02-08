@@ -37,6 +37,7 @@ Guess : SHAWM 🟩️🟩️🟩️⬜️⬜️ There are 2 remains
 Guess : SHARD 11102
 ```
 > ![](https://i.imgur.com/ucM1MRu.jpg)
+> ![](https://i.imgur.com/BPrSCiD.jpg)
 
 
 Enjoy your WORDLE!!
