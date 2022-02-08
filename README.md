@@ -25,9 +25,6 @@ Congratulations!
 > ![](https://i.imgur.com/gVAle8G.jpg)
 
 
-Once you type in 12000
-Our program will pop out all invalid guess in WordleSolver.choices by the game's rule
-
 Enjoy your WORDLE!!
 
 > If you interest in algorithm of this project you can check **WordleSolver.py**
