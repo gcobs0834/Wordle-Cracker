@@ -1,3 +1,6 @@
+# Wordle-Cracker
+This repository contains algorithm and solver for the game **[Wordle](https://www.powerlanguage.co.uk/wordle/)**
+
 # How to use
 * Run the program:
 ```
