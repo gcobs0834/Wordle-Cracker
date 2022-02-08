@@ -11,11 +11,13 @@ Every time our program will pop out a guess and you can enter wordle's hint by c
 
 * For example:
 ```
-# GUESS
-F A S T S
-# Wordle
-G Y B B B # Green Yellow Black Black Black
-1 2 0 0 0 # You type in input
+If the guess pop Not in word list enter 99999
+There are 6602 remains
+Guess : BAZAR ⬜️🟨⬜️⬜️🟨 There are 95 remains
+Guess : DRAWL ⬜️🟩️🟩️⬜️⬜️ There are 14 remains
+Guess : PRANA ⬜️🟩️🟩️⬜️⬜️ There are 5 remains
+Guess : CRACK ⬜️🟩️🟩️⬜️⬜️ There are 1 remains
+Guess : FRAME 11111
 ```
 > ![](https://i.imgur.com/ucM1MRu.jpg)
 > ![](https://i.imgur.com/gVAle8G.jpg)
