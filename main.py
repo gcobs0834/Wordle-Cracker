@@ -24,7 +24,7 @@ choices = json.load(f)
 f.close()
 Solver = WordleSolver(choices)
 
-print('If you find word not in list enter 99999')
+print('If the guess pop Not in word list enter 99999')
 guessWord = ""
 colors = ""
 while True:
