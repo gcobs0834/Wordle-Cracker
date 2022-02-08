@@ -18,27 +18,27 @@ class WordleSolver:
         BLACK, GREEN, YELLOW = 0, 1, 2
         res = []
         for choice in self.choices:
-            validChoice = True
-            if self.violateGreen(choice, Colors[GREEN]):
+            checkBlack =  self.violateBlack(choice, Colors[BLACK])
+            checkGreen =  self.violateGreen(choice, Colors[GREEN])
+            checkYellow = self.violateYellow(choice, Colors[YELLOW])
+            if checkBlack or checkGreen or checkYellow: # If one violates pop out current choice
                 continue
-            for i, letter in enumerate(choice):
-                if self.violateBlack(letter, Colors[BLACK]) or self.violateYellow(i, letter, Colors[YELLOW]):
-                    validChoice = False
-                    break
-            if validChoice:
-                res.append(choice)
+            res.append(choice)
         self.choices = res
 
     
-    def violateBlack(self, letter, blackHash):
-        if letter in blackHash:
-            return True
-        else:
-            return False
+    def violateBlack(self, choice, blackHash):
+        for letter in choice:
+            if letter in blackHash:
+                return True
+        return False
     
-    def violateYellow(self, i, letter, yellowHash):
-        if letter in yellowHash:
-            if i in yellowHash[letter]:
+    def violateYellow(self, choice, yellowHash):
+        for i, letter in enumerate(choice):
+            if letter in yellowHash and i in yellowHash[letter]:
+                return True
+        for letter in yellowHash:
+            if letter not in choice:
                 return True
         return False
     
@@ -96,7 +96,7 @@ class WordleSolver:
 
 
 def main():
-    f = open('actualWords.json')
+    f = open('./data/actualWords.json')
     choices = json.load(f)
     f.close()
     Solver = WordleSolver(choices)
