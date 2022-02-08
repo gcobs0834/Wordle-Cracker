@@ -22,4 +22,4 @@ Our program will pop out all invalid guess in WordleSolver.choices by the game's
 
 Enjoy your WORDLE!!
 
-# If you interest in algorithm of this project you can check **WordleSolver.py**
+> If you interest in algorithm of this project you can check **WordleSolver.py**
