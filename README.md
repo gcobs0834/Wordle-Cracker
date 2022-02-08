@@ -1,9 +1,8 @@
-# Wordle-Cracker
-This is a project that will automatic generate possible answer of Wordle.
-
-
 # How to use
-*Just run main.py*
+* Run the program:
+```
+python main.py
+```
 
 It will call a WodleSolver class which will calculate every possible answer we generate from data's *generateValidWords.py* actualWords.json
 The file actualWords.json contains 6602 possible guesses of length of 5 words.
