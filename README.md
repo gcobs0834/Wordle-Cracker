@@ -6,6 +6,8 @@ This repository contains algorithm and solver for the game **[WORDLE](https://ww
 ```
 python main.py
 ```
+* Type in the guess word in WORDLE and type in corresponding colors in python prompt
+* If it's 🟩️🟩️🟩️⬜️⬜️ then you type **11100** , ⬜️🟩️🟩️⬜️🟨 you type **01102** etc.
 
 It will call a WodleSolver class which will calculate every possible answer we generate from data's *generateValidWords.py* actualWords.json
 The file actualWords.json contains 6602 possible guesses of length of 5 words.
@@ -36,7 +38,7 @@ Guess : SHAPE 🟩️🟩️🟩️⬜️⬜️ There are 3 remains
 Guess : SHAWM 🟩️🟩️🟩️⬜️⬜️ There are 2 remains
 Guess : SHARD 11102
 ```
-* If it's 🟩️🟩️🟩️⬜️⬜️ then you type **11100** , ⬜️🟩️🟩️⬜️🟨 you type **01102** etc.
+
 > ![](https://i.imgur.com/oGuokkD.png)
 > ![](https://i.imgur.com/AXPpA0Y.png)
 
