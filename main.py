@@ -40,7 +40,7 @@ while True:
     if wordle == '11111':
         print('Congratulations!')
         break
-    print ('\033[1A''\033[F')
+    print ('\033[1A''\033[F') # To clean print
     colors = stringToColor(wordle)
     Solver.calculateRemain(wordle, guess)
     
