@@ -36,6 +36,7 @@ Guess : SHAPE 🟩️🟩️🟩️⬜️⬜️ There are 3 remains
 Guess : SHAWM 🟩️🟩️🟩️⬜️⬜️ There are 2 remains
 Guess : SHARD 11102
 ```
+* If it's 🟩️🟩️🟩️⬜️⬜️ then you type 11100, ⬜️🟩️🟩️⬜️🟨 you type 01102 etc.
 > ![](https://i.imgur.com/oGuokkD.png)
 > ![](https://i.imgur.com/AXPpA0Y.png)
 
