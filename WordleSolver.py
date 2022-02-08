@@ -49,8 +49,6 @@ class WordleSolver:
                     if choice[i] != char:
                         return True
         return False
-                
-
 
     def buildColorHash(self, wordleString, guess):
         wordle = self.getWordleList(wordleString)
@@ -75,9 +73,6 @@ class WordleSolver:
         
 
     def getNumberOfChoices(self):
-        if len(self.choices) < 20:
-            for word in self.choices:
-                print(self.numToWord(word))
         return len(self.choices)
 
     def numToWord(self, nums):
@@ -92,8 +87,6 @@ class WordleSolver:
         for letter in s:
             res.append(int(letter))
         return res
-            
-
 
 def main():
     f = open('./data/actualWords.json')
