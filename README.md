@@ -1,9 +1,11 @@
 # Wordle-Cracker
-This is a project that will automatic generate possible answer of Wordle.
-
+This repository contains algorithm and solver for the game **[WORDLE](https://www.powerlanguage.co.uk/wordle/)**
 
 # How to use
-*Just run main.py*
+* Run the program:
+```
+python main.py
+```
 
 It will call a WodleSolver class which will calculate every possible answer we generate from data's *generateValidWords.py* actualWords.json
 The file actualWords.json contains 6602 possible guesses of length of 5 words.
@@ -11,14 +13,34 @@ Every time our program will pop out a guess and you can enter wordle's hint by c
 
 * For example:
 ```
-# GUESS
-F A S T S
-# Wordle
-G Y B B B # Green Yellow Black Black Black
-1 2 0 0 0 # You type in input
+====================
+Game: 1
+====================
+If the guess pop Not in word list enter 99999
+There are 6602 remains
+Guess : DONNA ⬜️⬜️⬜️⬜️🟨 There are 1298 remains
+Guess : CLAMS ⬜️⬜️🟩️🟩️⬜️ There are 4 remains
+Guess : TRAMP ⬜️🟩️🟩️🟩️⬜️ There are 1 remains
+Guess : FRAME ⬜️🟩️🟩️🟩️⬜️ There are 1 remains
+Congratulations!
+
+====================
+Game: 2
+====================
+If the guess pop Not in word list enter 99999
+There are 6602 remains
+Guess : HAIKU 🟨🟨⬜️⬜️⬜️ There are 125 remains
+Guess : GHATS ⬜️🟩️🟩️⬜️🟨 There are 15 remains
+Guess : SHALL 🟩️🟩️🟩️⬜️⬜️ There are 9 remains
+Guess : SHAPE 🟩️🟩️🟩️⬜️⬜️ There are 3 remains
+Guess : SHAWM 🟩️🟩️🟩️⬜️⬜️ There are 2 remains
+Guess : SHARD 11102
 ```
-Once you type in 12000
-Our program will pop out all invalid guess in WordleSolver.choices by the game's rule
+> ![](https://i.imgur.com/oGuokkD.png)
+> ![](https://i.imgur.com/AXPpA0Y.png)
+
+
+
 
 Enjoy your WORDLE!!
 
